@@ -1,0 +1,26 @@
+{
+  "name": "dsh-github-push",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Push a Git repository to GitHub with an explicitly chosen local gh account",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

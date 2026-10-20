@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub Push",
+    "description": "Lists the GitHub accounts gh can act as, lets you pick one, verifies that account can push to the repository, then pushes the branch — and never chooses an account on its own."
+  }
+}
